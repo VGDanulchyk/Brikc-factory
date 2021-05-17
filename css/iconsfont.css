@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?ovrfc2');
+  src:  url('../fonts/icons.eot?ovrfc2#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?ovrfc2') format('truetype'),
+    url('../fonts/icons.woff?ovrfc2') format('woff'),
+    url('../fonts/icons.svg?ovrfc2#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-brick:before {
+  content: "\e900";
+}
+.icon-industry:before {
+  content: "\e901";
+}
+.icon-hryvnia:before {
+  content: "\e902";
+}
+.icon-money:before {
+  content: "\e903";
+}
+.icon-usd:before {
+  content: "\e904";
+}
+.icon-handshake:before {
+  content: "\e905";
+}
+.icon-contact:before {
+  content: "\e906";
+}
+.icon-headset:before {
+  content: "\e907";
+}
+.icon-phone:before {
+  content: "\e908";
+}
