@@ -130,7 +130,7 @@ figure > img {
 
 .link-btn:hover {
   background-color: #c42510;
-  transition: all 1s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .main {
