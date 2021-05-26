@@ -54,21 +54,22 @@ header {
   text-transform: uppercase;
   color: white;
   font-weight: 600;
-  transition: all 0.5s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 .menu-list-link:hover {
   cursor: pointer;
   color: coral;
-  transition: all 1s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 figure {
   margin: 10px 0 10px 0;
 }
 
-figure > img {
+.main-image {
   width: 100%;
+  border-radius: 7px;
 }
 
 .block-row {
@@ -95,7 +96,7 @@ figure > img {
 
 .block-item-text {
   text-align: center;
-  margin: 15px 0;
+  margin-top: 15px;
   padding: 0 8px;
 }
 
@@ -105,7 +106,15 @@ figure > img {
   text-decoration: none;
   font-size: 100px;
   color: coral;
+  transition: all 1s ease 0s;
 }
+.icon-brick:hover,
+.icon-hryvnia:hover,
+.icon-contact:hover {
+  color: #c42510;
+  transition: all 0.5s ease 0s;
+}
+
 
 .block-item-contacts-text {
   font-weight: 700;
@@ -119,13 +128,14 @@ figure > img {
 }
 
 .link-btn {
+  margin-top: 15px;
   padding: 10px 25px;
   font-size: 16px;
   border-radius: 5px;
   color: white;
   background-color: coral;
   text-decoration: none;
-  transition: all 0.5s ease 0s;
+  transition: all 1s ease 0s;
 }
 
 .link-btn:hover {
@@ -152,14 +162,14 @@ figure > img {
   margin-bottom: 20px;
 }
 
-.content >p {
+.content-text {
   text-indent: 20px;
 }
 
 .content-image-left {
   float: left;
   max-width: 100%;
-  margin:10px 10px 10px 0;
+  margin:10px 15px 10px 0;
   border-radius: 5px;
   box-shadow: 0 2px 4px #dec2c2;
 }
